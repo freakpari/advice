@@ -10,9 +10,9 @@ export default function App() {
         setCount((c) => c+1 );
     }
     //timer for counting
-    useEffect(function () { 
-        getAdvice();
-    } ,[]);
+   // useEffect(function () { 
+      //  getAdvice();
+   // } ,[]);
 
     return (
         <div>
