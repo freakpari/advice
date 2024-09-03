@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import './App.css';
 export default function App() {
     const [advice, setAdvice] = useState("");
@@ -9,10 +9,6 @@ export default function App() {
         setAdvice(data.slip.advice)
         setCount((c) => c+1 );
     }
-    //timer for counting
-   // useEffect(function () { 
-      //  getAdvice();
-   // } ,[]);
 
     return (
         <div>
